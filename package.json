@@ -1,0 +1,18 @@
+{
+  "name": "wm160-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:davwheat-warwick/wm160-notes.git",
+  "author": "David Wheatley <hi@davwheat.dev>",
+  "license": "CC-BY-NC-SA-4.0",
+  "private": true,
+  "prettier": "@flarum/prettier-config",
+  "devDependencies": {
+    "@flarum/prettier-config": "^1.0.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
+  }
+}
