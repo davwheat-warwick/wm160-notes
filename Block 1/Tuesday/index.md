@@ -68,7 +68,7 @@ From this, we can now calculate the mean, which would be $\frac{58}{11}$, which 
 
 #### Median
 
-The median is simpler than the mean. We need to know the total frequency ($\sum{f}$), then add one, and divide by two. This tells us what position the median is within the dataset.
+The median is simpler than the mean. We need to know the total frequency ( $\sum{f}$ ), then add one, and divide by two. This tells us what position the median is within the dataset.
 
 This is easiest with by adding a new cumulative frequency column to our table.
 
@@ -79,9 +79,9 @@ This is easiest with by adding a new cumulative frequency column to our table.
 |    $7$     |       $2$       |          8           |
 |    $8$     |       $3$       |          11          |
 
-In this example, our median is at position $6$ ($\frac{11 + 1}{2} = 6$), so we find where $6$ fits into our cumulative frequency entries.
+In this example, our median is at position $6$ ( $\frac{11 + 1}{2} = 6$ ), so we find where $6$ fits into our cumulative frequency entries.
 
-You can do this by finding the place where the position ($6$) is greater than the cumulative frequency entry, then choose the entry before.
+You can do this by finding the place where the position ( $6$ ) is greater than the cumulative frequency entry, then choose the entry before.
 
 If we look at the first row, the cumulative frequency is $5$. $6$ is not greater than $5$, so we look at the next row. $6$ is not greater than $6$, so we look at the next row. $8$ is greater than $6$, so we look at the row before this.
 
