@@ -67,8 +67,7 @@ This means that the mean of $x$ is equal to the sum of $f \times x$ (data multip
 |    $8$     |       $3$       | $8\times3=24$ |
 
 $$
-\sum{f}=11
-\\
+\sum{f}=11 \\
 \sum{fx}=15+5+14+24=58
 $$
 
@@ -141,10 +140,8 @@ Using our dataset, we can calculate the value of $n$ (count of items in dataset)
 
 $$
 \begin{align*}
-
 n &= 7 \\
 \bar{x} &= \frac{1+1+1+2+3}{7} = \frac{8}{7} \\
-
 \end{align*}
 $$
 
@@ -152,13 +149,11 @@ Using these values, we can now calculate the variance and sample standard deviat
 
 $$
 \begin{align*}
-
 \sigma^2 &= \frac{(1^2+1^2+1^2+2^2+3^2)-7(\frac{8}{7})^2}{7-1} \\
 \sigma^2 &=  \frac{16 - \frac{64}{7}}{6} \\
 \sigma^2 &= \frac{8}{7} \\
 \sigma &= \sqrt{\frac{8}{7}} \\
 \sigma &\approx 1.07 \text{ (3 s.f.)}
-
 \end{align*}
 $$
 
@@ -166,16 +161,11 @@ $$
 
 $$
 \text{A set of sample data is summarised as:} \\
-
 \begin{align*}
-
 n &= 100 \\
 \sum{x} &= 1420 \\
 \sum{x^2} &= 22125
-
 \end{align*} \\
-
-
 \text{Find the mean and standard deviation.}
 $$
 
@@ -183,11 +173,9 @@ The mean is relatively straightforward to calculate, since we have the value of 
 
 $$
 \begin{align*}
-
 \bar{x} &= \frac{\sum{x}}{n} \\
 &= \frac{1420}{100} \\
 &= 14.2
-
 \end{align*}
 $$
 
@@ -195,14 +183,12 @@ For the standard deviation, we need to use the sample standard deviation formula
 
 $$
 \begin{align*}
-
 \sigma^2 &= \frac{\sum{x^2}-n\bar{x}^2}{n-1} \\
 \sigma^2 &= \frac{22125 - (100)(14.2)^2}{100-1} \\
 \sigma^2 &= \frac{22125 - 20164}{99} \\
 \sigma^2 &= \frac{1961}{99} \\
 \sigma &= \sqrt{\frac{1961}{99}} \\
 \sigma &\approx 4.45 \text{ (3 s.f.)} \\
-
 \end{align*}
 $$
 
@@ -241,11 +227,9 @@ We can represent the mean by the sum of $fx$, divided by $f$:
 
 $$
 \begin{align*}
-
 \bar{x} &= \frac{\sum{fx}}{\sum{f}} \\
 \bar{x} &= \frac{690}{194} \\
 \bar{x} &= \frac{345}{97}
-
 \end{align*}
 $$
 
@@ -253,9 +237,7 @@ Now we know the mean, we can work out the population standard deviation.
 
 $$
 \begin{align*}
-
 \sigma^2 &= \frac{\sum{(fx^2)} - (\sum{f})\bar{x}^2}{\sum{f}}
-
 \end{align*}
 $$
 
@@ -277,7 +259,6 @@ From this updated table, we can complete the formula:
 
 $$
 \begin{align*}
-
 \sigma^2 &= \frac{\sum{(fx^2)} - (\sum{f})\bar{x}^2}{\sum{f}} \\
 \sigma^2 &= \frac{2938 - (194)(\frac{345}{97})^2}{194} \\
 \sigma^2 &= \frac{2938 - \frac{238050}{97}}{194} \\
@@ -286,7 +267,6 @@ $$
 \sigma^2 &\approx 2.49 \text{ (3 s.f.)} \\
 \sigma &= \sqrt{\frac{46936}{18818}} \\
 \sigma &\approx 1.58 \text{ (3 s.f.)} \\
-
 \end{align*}
 $$
 
