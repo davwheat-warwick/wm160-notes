@@ -169,6 +169,6 @@ $$
 \begin{align*}
   \frac{1}{4} &= 0.5 \times 0.25 \\
   0.25 &\neq 0.125 \\
+\therefore&\text{ E and F are not independent}
 \end{align*} \\
-\therefore\text{ E and F are not independent}
 $$
