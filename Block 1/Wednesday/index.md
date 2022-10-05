@@ -107,4 +107,50 @@ $$
 
 ![](./venn1.png)
 
+#### Independent events
 
+> Imagine a set of four numbers, $S$.
+
+$$
+S = \{ 1, 2, 3, 4 \}
+$$
+
+> What is the probability someone picks, at random, an even number?
+
+$$
+\begin{align*}
+E &= \{ 2, 4 \} \\
+P(E) = \frac{2}{4} &= 0.5 \\
+\end{align*}
+$$
+
+> What is the probability someone picks, at random, a multiple of four?
+
+$$
+\begin{align*}
+F &= \{ 4 \} \\
+P(F) = \frac{1}{4} &= 0.25 \\
+\end{align*}
+$$
+
+> State and prove whether these events are independent or not.
+
+$$
+\begin{align*}
+  E \cap F &= \{ 2 \} \\
+\end{align*} \\
+\text{From Venn diagram:} \\
+\begin{align*}
+  P(E \cap F) &= \frac{1}{4} \\
+\end{align*} \\
+\text{If E and F are independent, then:} \\
+\begin{align*}
+  P(E \cap F) &= P(E) \times P(F) \\
+\end{align*} \\
+\text{Proof:} \\
+\begin{align*}
+  \frac{1}{4} &= 0.5 \times 0.25 \\
+  0.25 &\neq 0.125 \\
+\end{align*} \\
+\therefore\text{ E and F are not independent}
+$$
