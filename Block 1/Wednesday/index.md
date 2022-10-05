@@ -39,6 +39,72 @@ A box plot of a dataset shows:
 
 An example labelled box plot is shown below:
 
-![Example of a box plot, with its key elements labelled](box%20plot.png)
+![Example of a box plot, with its key elements labelled](./box%20plot.png)
 
 > This is a derivative work of RobSeb's `Elements of a boxplot.svg` [available on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Elements_of_a_boxplot.svg), licensed under CC-BY-SA 3.0. This derivative is also licensed under CC-BY-SA 3.0.
+
+## Probability
+
+### Quiz notes
+
+A repeatable process that gives rise to a number of outcomes is an **experiment**.
+
+A particular result of an experiment is an **outcome**.
+
+An outcome or set of outcomes to an experiement is an **event**.
+
+The range of all possible outcomes of an experiment is called **sample space**.
+
+When the occurrence of one event has no effect on the probability of the occurrence of another event, the two events are **independent**.
+
+A complement of an event is equal to $1 - P_1$ where $P_1$ is the probability of the event. For example, if $P(event) = \frac{2}{7}$, the complement ( $P(event')$ ) will be $\frac{5}{7}$.
+
+A collection of one or more outcomes is called an **event**. For example, if we roll a die three times, we could get $\{1, 6, 3\}$. Each individual roll is an outcome, but the collection of all three rolls is an **event**.
+
+$$
+\begin{align*}
+P(A) = P(B) &= 0.2 \\
+P(A') = P(B') &= 0.8 \\
+P(A' \cap B') = P(A') \times P(B') = 0.8 \times 0.8 &= 0.64
+\\
+\end{align*}
+$$
+
+When you generate $n$ outcomes, where there are $x$ potential outcomes each time, the number of potential outcomes is $x^n$.
+
+For example, if you roll an unbiased die (6 potential outcomes) 5 times, the overall number of potential outcomes if $6^5 = 7776$.
+
+### Probability rules
+
+$$
+\begin{align*}
+0 \leq P(A)\leq 1 \\
+P(A) + P(A') &= 1 \\\\
+\text{Mutually exclusive events}&\text{:} \\
+P(A \cup B) &= P(A) + P(B) \\\\
+\text{Non-mutually exclusive events}&\text{:} \\
+P(A \cup B) &= P(A) + P(B) - P(A \cap B) \\
+\end{align*}
+$$
+
+### Examples
+
+#### Rolling a die
+
+$$
+P(E) = \text{chance of rolling an even number} = 0.5 \\
+P(P) = \text{chance of rolling a prime number} = 0.5 \\
+\begin{align*}\\
+P(E \cap P) &= 0.5 \\
+            &= \frac{1}{6} \\
+\end{align*}\\
+\begin{align*}\\
+P(E \cup P) &= P(E) + P(P) - P(E \cup P) \\
+            &= 0.5 + 0.5 - \frac{1}{6} \\
+            &= \frac{5}{6} \\
+\end{align*}
+$$
+
+![](./venn1.png)
+
+
