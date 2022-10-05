@@ -94,11 +94,17 @@ $$
 $$
 P(E) = \text{chance of rolling an even number} = 0.5 \\
 P(P) = \text{chance of rolling a prime number} = 0.5 \\
-\begin{align*}\\
+$$
+
+$$
+\begin{align*}
 P(E \cap P) &= 0.5 \\
             &= \frac{1}{6} \\
-\end{align*}\\
-\begin{align*}\\
+\end{align*}
+$$
+
+$$
+\begin{align*}
 P(E \cup P) &= P(E) + P(P) - P(E \cup P) \\
             &= 0.5 + 0.5 - \frac{1}{6} \\
             &= \frac{5}{6} \\
@@ -138,15 +144,24 @@ $$
 $$
 \begin{align*}
   E \cap F &= \{ 2 \} \\
-\end{align*} \\
+\end{align*}
+$$
+
+$$
 \text{From Venn diagram:} \\
 \begin{align*}
   P(E \cap F) &= \frac{1}{4} \\
-\end{align*} \\
+\end{align*}
+$$
+
+$$
 \text{If E and F are independent, then:} \\
 \begin{align*}
   P(E \cap F) &= P(E) \times P(F) \\
-\end{align*} \\
+\end{align*}
+$$
+
+$$
 \text{Proof:} \\
 \begin{align*}
   \frac{1}{4} &= 0.5 \times 0.25 \\
