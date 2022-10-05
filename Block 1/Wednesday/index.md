@@ -167,7 +167,7 @@ Proof:
 
 $$
 \begin{align*}
-  \frac{1}{4} &= 0.5 \times 0.25 \\
+  \frac{1}{4} &\stackrel{?}{=} 0.5 \times 0.25 \\
   0.25 &\neq 0.125 \\
 \therefore&\text{ E and F are not independent}
 \end{align*} \\
