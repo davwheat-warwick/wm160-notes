@@ -78,12 +78,12 @@ For example, if you roll an unbiased die (6 potential outcomes) 5 times, the ove
 
 $$
 \begin{align*}
-0 \leq P(A)\leq 1 \\
-P(A) + P(A') &= 1 \\\\
-\text{Mutually exclusive events}&\text{:} \\
-P(A \cup B) &= P(A) + P(B) \\\\
-\text{Non-mutually exclusive events}&\text{:} \\
-P(A \cup B) &= P(A) + P(B) - P(A \cap B) \\
+  0 \leq P(A)\leq 1 \\
+  P(A) + P(A') &= 1 \\\\
+  \text{Mutually exclusive events}&\text{:} \\
+  P(A \cup B) &= P(A) + P(B) \\\\
+  \text{Non-mutually exclusive events}&\text{:} \\
+  P(A \cup B) &= P(A) + P(B) - P(A \cap B) \\
 \end{align*}
 $$
 
@@ -98,16 +98,16 @@ $$
 
 $$
 \begin{align*}
-P(E \cap P) &= 0.5 \\
-            &= \frac{1}{6} \\
+  P(E \cap P) &= 0.5 \\
+              &= \frac{1}{6} \\
 \end{align*}
 $$
 
 $$
 \begin{align*}
-P(E \cup P) &= P(E) + P(P) - P(E \cup P) \\
-            &= 0.5 + 0.5 - \frac{1}{6} \\
-            &= \frac{5}{6} \\
+  P(E \cup P) &= P(E) + P(P) - P(E \cup P) \\
+              &= 0.5 + 0.5 - \frac{1}{6} \\
+              &= \frac{5}{6} \\
 \end{align*}
 $$
 
@@ -125,8 +125,8 @@ $$
 
 $$
 \begin{align*}
-E &= \{ 2, 4 \} \\
-P(E) = \frac{2}{4} &= 0.5 \\
+  E &= \{ 2, 4 \} \\
+  P(E) = \frac{2}{4} &= 0.5 \\
 \end{align*}
 $$
 
@@ -134,8 +134,8 @@ $$
 
 $$
 \begin{align*}
-F &= \{ 4 \} \\
-P(F) = \frac{1}{4} &= 0.25 \\
+  F &= \{ 4 \} \\
+  P(F) = \frac{1}{4} &= 0.25 \\
 \end{align*}
 $$
 
@@ -147,22 +147,25 @@ $$
 \end{align*}
 $$
 
+From Venn diagram:
+
 $$
-\text{From Venn diagram:} \\
 \begin{align*}
   P(E \cap F) &= \frac{1}{4} \\
 \end{align*}
 $$
 
+If E and F are independent, then:
+
 $$
-\text{If E and F are independent, then:} \\
 \begin{align*}
   P(E \cap F) &= P(E) \times P(F) \\
 \end{align*}
 $$
 
+Proof:
+
 $$
-\text{Proof:} \\
 \begin{align*}
   \frac{1}{4} &= 0.5 \times 0.25 \\
   0.25 &\neq 0.125 \\
