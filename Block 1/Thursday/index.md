@@ -64,9 +64,9 @@ mean, variation and standard deviation can be calculated as followed:
 
 $$
 \begin{align*}
-\text{mean} &\rarr E(X) = np \\
-\text{variance} &\rarr \sigma^2 = npq \\
-\text{standard deviation} &\rarr \sigma = \sqrt{npq} \\
+\text{mean} &\rightarrow E(X) = np \\
+\text{variance} &\rightarrow \sigma^2 = npq \\
+\text{standard deviation} &\rightarrow \sigma = \sqrt{npq} \\
 \end{align*}
 $$
 
