@@ -81,7 +81,7 @@ $$
 **Cumulative binomial probabilities**
 
 $$
-P(X \leq x) = \sum^{x}_{r=0} {n \choose r} p^r(1-p)^{n-r}
+P(X \leq x) = \sum^{x}_{r=0} \left[ {n \choose r} p^r(1-p)^{n-r} \right]
 $$
 
 ### Exercises
@@ -122,5 +122,141 @@ $$
 P(X = 6) &= {8 \choose 6}0.6^6(1-0.6)^{8-6} \\
 &= 28 \times 0.6^6 \times 0.4^2 \\
 P(X = 6) &\approx 0.209 \text{ (3 s.f.)} \\
+\end{align*}
+$$
+
+#### Exercise 2
+
+> $X \sim B(10, 0.7)$
+>
+> Find the following probabilities:
+>
+> 1. $P(X = 0)$
+> 2. $P(X = 1)$
+> 3. $P(X > 1)$
+> 4. $P(X < 3)$
+
+$$
+\begin{align*}
+P(X = 0) &= {10 \choose 0} 0.7^0 (1 - 0.7)^{10 - 0} \\
+&= (0.3)^{10} \\
+&= (0.3)^{10} \\
+P(X = 0) &\approx 0.00000591 \text{ (3 s.f.)} \\
+\end{align*}
+$$
+
+<br />
+
+$$
+\begin{align*}
+P(X = 1) &= {10 \choose 1} 0.7^1 (1 - 0.7)^{10 - 1} \\
+&= 10 \times 0.7 \times 0.3^9 \\
+P(X = 0) &\approx 0.000138 \text{ (3 s.f.)} \\
+\end{align*}
+$$
+
+<br />
+
+$$
+\begin{align*}
+P(X \leq x) &= \sum^{x}_{r=0} \left[ {n \choose r} p^r(1-p)^{n-r} \right] \\
+P(X > 1) &= 1 - P(X \leq 1) \\
+&= 1 - \sum^{1}_{r=0}({10 \choose r} 0.7^r (1 - 0.7)^{10 - r}) \\
+&= 1 - \left[\left({10 \choose 0} 0.7^0 (1-0.7)^{10 - 0}\right) + \left({10 \choose 1} 0.7^1 (1-0.7)^{10 - 1}\right)\right] \\
+&= 1 - \left[\left(0.3^{10}\right) + \left(10 \times 0.7 \times (0.3)^{9}\right)\right] \\
+&= 1 - \left[\left(0.3^{10}\right) + \left(7 \times (0.3)^{9}\right)\right] \\
+&= 1 - \left[\left(0.3^{10}\right) + \left(7 \times (0.3)^{9}\right)\right] \\
+&= 0.999856314\dots \\
+P(X > 1) &\approx 0.999 \text{ (3 s.f.)} \\
+\end{align*}
+$$
+
+<br />
+
+$$
+\begin{align*}
+P(X \leq x) &= \sum^{x}_{r=0} \left[ {n \choose r} p^r(1-p)^{n-r} \right] \\
+P(X < 3) &= P(X \leq 2) \\
+&= \sum^2_{r=0} \left[ {10 \choose r} 0.7^r (1-0.7)^{10-r} \right] \\
+&= \left[ \left( {10 \choose 0} 0.7^0 (1-0.7)^{10-0} \right) + \left({10 \choose 1} 0.7^1 (1-0.7)^{10-1}\right) + \left({10 \choose 2} 0.7^2 (1-0.7)^{10-2}\right) \right] \\
+&= \left[ \left(0.3^{10}\right) + \left( 10 \times 0.7 \times 0.3^9 \right) + \left(45 \times 0.49 \times 0.3^8 \right) \right] \\
+&= \left[ \left(0.3^{10}\right) + \left( 7 \times 0.3^9 \right) + \left(22.05 \times 0.3^8 \right) \right] \\
+&= \left[ \left(0.3^{10}\right) + \left( 7 \times 0.3^9 \right) + \left(22.05 \times 0.3^8 \right) \right] \\
+&= 0.001590386\dots \\
+P(X > 1) &\approx 0.00159 \text{ (3 s.f.)} \\
+\end{align*}
+$$
+
+#### Exercise 3
+
+> $X \sim B(12, 0.4)$
+>
+> 1. Find the expectation
+> 2. What is the most likely outcome for $X$
+
+$$
+\begin{align*}
+E(X) &= np \\
+&= 12 \times 0.4 \\
+&= 4.8 \\
+\end{align*}
+$$
+
+<br />
+
+$$
+\text{The most likely outcome is } x = 5
+$$
+
+#### Exercise 3
+
+> $X \sim B(8, 0.4)$
+>
+> 1. Find the expectation
+> 2. What is the most likely outcome for $X$
+
+$$
+\begin{align*}
+E(X) &= np \\
+&= 8 \times 0.4 \\
+&= 3.2 \\
+\end{align*}
+$$
+
+<br />
+
+$$
+\text{The most likely outcome is } x = 3
+$$
+
+#### Exercise 4
+
+> An online store claims that 75% of orders are dispatched on the next working day.
+>
+> I use this store online regularly, and only 4 out of my last 10 orders were dispatched on the next working day.
+>
+> 1. What is the probability using the store's figures that exactly 4 out of 10 orders are dispatched the next working day?
+> 2. What is the probability using the store's figures that fewer than 4 out of 10 orders are dispatched the next working day?
+
+$$
+\begin{align*}
+X \sim B(10, 0.75) \\
+P(X = 4) &= {10 \choose 4} 0.75^4 \times 0.25^{6} \\
+&= 210 \times 0.75^4 \times 0.25^6 \\
+&= 0.016222000\dots \\
+\therefore P(X = 4) &\approx 0.0162 \text{ (3 s.f.)}
+\end{align*}
+$$
+
+1.62% chance that 4 of 10 orders would be dispatched the next working day.
+
+<br />
+
+$$
+\begin{align*}
+X \sim B(10, 0.75) \\
+P(X < 4) &= P(X \leq 3) \\
+&= \sum^3_{r=0} \left[ {10 \choose r} 0.75^r (1-0.75)^{10-r} \right] \\
+\therefore P(X <= 3) &\approx 0.00351  \text{ (3 s.f.)}
 \end{align*}
 $$
