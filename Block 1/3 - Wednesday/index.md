@@ -1,4 +1,16 @@
-# WM160 Applied Maths I / Block 1 / Day 3 notes (2022-10-05)
+# WM160 Applied Maths I / Block 1 / Day 3 notes (2022-10-05) <!-- omit in toc -->
+
+## Contents <!-- omit in toc -->
+
+- [Measures of spread (continued)](#measures-of-spread-continued)
+  - [Interquartile range](#interquartile-range)
+    - [Box plots](#box-plots)
+- [Probability](#probability)
+  - [Quiz notes](#quiz-notes)
+  - [Probability rules](#probability-rules)
+  - [Examples](#examples)
+    - [Rolling a die](#rolling-a-die)
+    - [Independent events](#independent-events)
 
 ## Measures of spread (continued)
 

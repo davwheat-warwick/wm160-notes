@@ -1,4 +1,19 @@
-# WM160 Applied Maths I / Block 1 / Day 4 notes (2022-10-06)
+# WM160 Applied Maths I / Block 1 / Day 4 notes (2022-10-06) <!-- omit in toc -->
+
+## Contents <!-- omit in toc -->
+
+- [Independent events exercise](#independent-events-exercise)
+- [Binomial distribution](#binomial-distribution)
+  - [Conditions for use](#conditions-for-use)
+  - [Syntax](#syntax)
+  - [Mean, variance and standard deviation](#mean-variance-and-standard-deviation)
+  - [Probability of $r$ successful outcomes](#probability-of-r-successful-outcomes)
+  - [Exercises](#exercises)
+    - [Exercise 1](#exercise-1)
+    - [Exercise 2](#exercise-2)
+    - [Exercise 3](#exercise-3)
+    - [Exercise 4](#exercise-4)
+    - [Exercise 5](#exercise-5)
 
 ## Independent events exercise
 
@@ -208,7 +223,7 @@ $$
 \text{The most likely outcome is } x = 5
 $$
 
-#### Exercise 3
+#### Exercise 4
 
 > $X \sim B(8, 0.4)$
 >
@@ -229,7 +244,7 @@ $$
 \text{The most likely outcome is } x = 3
 $$
 
-#### Exercise 4
+#### Exercise 5
 
 > An online store claims that 75% of orders are dispatched on the next working day.
 >

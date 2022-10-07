@@ -1,22 +1,20 @@
-# WM160 Applied Maths I / Block 1 / Day 2 notes (2022-10-04)
+# WM160 Applied Maths I / Block 1 / Day 2 notes (2022-10-04) <!-- omit in toc -->
 
-## Contents
+## Contents <!-- omit in toc -->
 
-- [WM160 Applied Maths I / Block 1 / Day 2 notes (2022-10-04)](#wm160-applied-maths-i--block-1--day-2-notes-2022-10-04)
-  - [Contents](#contents)
-  - [Measures of centre](#measures-of-centre)
-    - [Mid-range](#mid-range)
-    - [Frequency tables](#frequency-tables)
-      - [Mean](#mean)
-      - [Median](#median)
-  - [Measures of spread](#measures-of-spread)
-    - [Variance](#variance)
-    - [Standard deviation](#standard-deviation)
-      - [Equation](#equation)
-      - [Example](#example)
-      - [Example 2](#example-2)
-      - [Example 3 - Population](#example-3---population)
-      - [Example 4 - classes and inequalities](#example-4---classes-and-inequalities)
+- [Measures of centre](#measures-of-centre)
+  - [Mid-range](#mid-range)
+  - [Frequency tables](#frequency-tables)
+    - [Mean](#mean)
+    - [Median](#median)
+- [Measures of spread](#measures-of-spread)
+  - [Variance](#variance)
+  - [Standard deviation](#standard-deviation)
+    - [Equation](#equation)
+    - [Example](#example)
+    - [Example 2](#example-2)
+    - [Example 3 - Population](#example-3---population)
+    - [Example 4 - classes and inequalities](#example-4---classes-and-inequalities)
 
 ## Measures of centre
 

@@ -1,20 +1,21 @@
-# WM160 Applied Maths I / Block 1 / Day 1 notes (2022-10-03)
+# WM160 Applied Maths I / Block 1 / Day 1 notes (2022-10-03) <!-- omit in toc -->
 
-- [WM160 Applied Maths I / Block 1 / Day 1 notes (2022-10-03)](#wm160-applied-maths-i--block-1--day-1-notes-2022-10-03)
-  - [Induction quiz overview](#induction-quiz-overview)
-    - [Question 1](#question-1)
-    - [Question 2](#question-2)
-    - [Question 3](#question-3)
-    - [Question 4](#question-4)
-  - [Vevox activity](#vevox-activity)
-    - [Poll 1 - populations](#poll-1---populations)
-    - [Poll 2 - simple random sampling](#poll-2---simple-random-sampling)
-    - [Poll 3 - sampling](#poll-3---sampling)
-    - [Poll 4 - sampling](#poll-4---sampling)
-    - [Poll 5](#poll-5)
-    - [Poll 6](#poll-6)
-    - [Poll 7](#poll-7)
-    - [Poll 8](#poll-8)
+## Contents <!-- omit in toc -->
+
+- [Induction quiz overview](#induction-quiz-overview)
+  - [Question 1](#question-1)
+  - [Question 2](#question-2)
+  - [Question 3](#question-3)
+  - [Question 4](#question-4)
+- [Vevox activity](#vevox-activity)
+  - [Poll 1 - populations](#poll-1---populations)
+  - [Poll 2 - simple random sampling](#poll-2---simple-random-sampling)
+  - [Poll 3 - sampling](#poll-3---sampling)
+  - [Poll 4 - sampling](#poll-4---sampling)
+  - [Poll 5](#poll-5)
+  - [Poll 6](#poll-6)
+  - [Poll 7](#poll-7)
+  - [Poll 8](#poll-8)
 
 ## Induction quiz overview
 
