@@ -59,13 +59,13 @@ $$
 
 ### One-tailed tests
 
-Where the **critical region** is one-sided, testing that a sample is greater than or less than, but not both. This could be a right-tailed or left-tailed test.
+Where the **critical region** is one-sided, we are testing that a sample is greater than or less than, but not both. This could be a right-tailed or left-tailed test.
 
 ![](./one%20tailed%20test.png)
 
 ### Two-tailed tests
 
-Where the **critical region** is split into two, testing that a sample is both greater than and less than predefined values.
+Where the **critical region** is split into two, we are testing that a sample is both greater than and less than predefined values.
 
 The significance level is equally split on either side of the tails. For example, an SL of $5\%$ would be split into $2.5\%$ on the left region, and another $2.5\%$ on the right region.
 
