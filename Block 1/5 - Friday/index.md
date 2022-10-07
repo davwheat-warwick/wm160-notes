@@ -8,8 +8,11 @@
   - [Determining when to reject the null hypothesis](#determining-when-to-reject-the-null-hypothesis)
     - [p-value](#p-value)
     - [Critical region](#critical-region)
+    - [Step-by-step](#step-by-step)
   - [Test exercises](#test-exercises)
     - [Question 1](#question-1)
+    - [Question 2](#question-2)
+    - [Question 3](#question-3)
 
 ## Hypothesis testing
 
@@ -85,6 +88,16 @@ We can also compare the observed value with the critical region:
 - if the value falls inside the critical region, we **reject** $H_0$
 - if the value falls outside the critical region, we **fail to reject** $H_0$
 
+#### Step-by-step
+
+1. State the probability in context
+2. Write down the null and alternative hypothesis
+3. Write down the significance level, $\alpha$
+4. Assume $H_0$ is true, and write down $B \sim B(n, p)$
+5. Carry out necessary calculations
+6. Make your decision: reject or fail to reject $H_0$
+7. State the conclusion in the context of the problem
+
 ### Test exercises
 
 #### Question 1
@@ -101,5 +114,103 @@ We can also compare the observed value with the critical region:
 > 3. What is Jessica’s conclusion?
 
 $$
-H_0
+p = P(\text{roll a six}) = \frac{1}{6}
 $$
+
+$$
+\begin{align*}
+H_0&: p = \frac{1}{6} \\
+H_1&: p < \frac{1}{6} \\
+\alpha &= 0.05
+\end{align*}
+$$
+
+$$
+n = 20 \\
+x = 1
+$$
+
+Let $X$ be the number of sixes in 20 throws.
+
+$$
+X \sim B(20, \frac{1}{6}) \\
+P(X \leq 1) = 0.130 \text{ (3 s.f.)} \\
+0.130 > 0.05
+$$
+
+$\therefore$ There is insufficient evidence to reject $H_0$.
+
+There is insufficient evidence to suggest the die may be biased against rolling sixes.
+
+#### Question 2
+
+> Hassan complains that a dice he is using is biased so that he is more likely to get a 1 than any other number.
+>
+> He decides to test at the 10% significance level the hypothesis that the dice is biased towards a 1.
+>
+> 1. Write down the null and alternative hypothesis that Hassan will use.
+>
+> Hassan throws the dice 12 times and gets 5 ones.
+>
+> 2. Find the p-value for this test.
+> 3. What is Hassan’s conclusion?
+
+$$
+p = P(\text{roll a one}) = \frac{1}{6}
+$$
+
+$$
+\begin{align*}
+H_0&: p = \frac{1}{6} \\
+H_1&: p > \frac{1}{6} \\
+\alpha &= 0.1
+\end{align*}
+$$
+
+Let $X$ be the number of ones in 12 throws.
+
+$$
+X \sim B(12, \frac{1}{6}) \\
+P(X \geq 5) = 0.0363\dots \\
+0.0363 \dots < 0.1
+$$
+
+$\therefore$ There is sufficient evidence to reject $H_0$.
+
+$\therefore$ There is sufficient evidence to suggest the die may be biased towards rolling ones.
+
+#### Question 3
+
+> A bus company claims that a particular service is on time in 90% of journeys. I think it is less than this. I decide to test this at the 5% significance level.
+>
+> 1. Write down the null and alternative hypothesis that I should use.
+> 
+> In my next 15 journeys, the bus is on time 10 times.
+> 
+> 2. Find the p-value for this test.
+> 3. What is my conclusion?
+
+$$
+p = P(\text{bus is on time}) = 0.9
+$$
+
+$$
+\begin{align*}
+H_0&: p = 0.9 \\
+H_1&: p < 0.9 \\
+\alpha &= 0.05
+\end{align*}
+$$
+
+Let X be the number of times the bus is on time in 15 journeys.
+
+$$
+X \sim B(15, 0.9) \\
+P(X \leq 10) = 0.0127\dots \\
+0.0127\dots < 0.05
+$$
+
+$\therefore$ There is sufficient evidence to reject $H_0$.
+
+$\therefore$ There is sufficient evidence to suggest that the company's buses arrive on time in fewer than 90% of journeys.
+
