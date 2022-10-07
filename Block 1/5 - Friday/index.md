@@ -50,9 +50,11 @@ $$
 The alternative hypothesis would take one of these forms:
 
 $$
-H_1: p \neq 0.03 \\
-H_1: p \lt 0.03 \\
-H_1: p \gt 0.03 \\
+\begin{align*}
+H_1&: p \neq 0.03 \\
+H_1&: p \lt 0.03 \\
+H_1&: p \gt 0.03
+\end{align*}
 $$
 
 ### One-tailed tests
